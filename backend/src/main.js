@@ -136,7 +136,7 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     ...extraMetadata,
     date: dateTime,
-    compiler: "HashLips Art Engine - codeSTACKr Modified",
+    compiler: "AQ",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
@@ -408,7 +408,6 @@ const startCreating = async () => {
         abstractedIndexes.shift();
       } else {
         console.log("DNA exists!");
-        failedCount++;
         if (failedCount >= uniqueDnaTorrance) {
           console.log(
             `You need more layers or elements to grow your edition to ${layerConfigurations[layerConfigIndex].growEditionSizeTo} artworks!`
