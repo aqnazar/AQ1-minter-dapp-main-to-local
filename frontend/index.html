@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CodeCats</title>
+    <title>SPIRIT CORES</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,32 +32,32 @@
   <body>
     <header>
       <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
-        </div>
         <div class="menu">
+          <div class="logo">
+            <a href="/">
+              <img src="images/x-icon/iCON2.png" alt="logo" />
+            </a>
+            </div>
           <a
             href="https://discord.gg/A9CnsVzzkZ"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="images/header/discord.webp" alt="Discord" />
+            <img src="images/header/Discord1.png" alt="Discord" />
           </a>
           <a
             href="https://twitter.com/codeSTACKr"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="images/header/twitter.webp" alt="Twitter" />
+            <img src="images/header/Twitter1.png" alt="Twitter" />
           </a>
           <a
             href="https://opensea.io/collection/codecats"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="images/header/opensea.webp" alt="Opensea" />
+            <img src="images/header/Opensea1.png" alt="Opensea" />
           </a>
           <button class="wallet-btn btn" id="connectWallet">
             <span>Connect Wallet</span>
@@ -67,14 +67,33 @@
     </header>
 
     <section class="container not-connected">
+      
+      <div class = "wrapper">
+        <div class = "gifcontainer"> 
+          <img src = "images/slider/540by540.gif"      
+          width="100" 
+          height="100"
+          class ="gif"> 
+          <img src = "images/slider/540by540.gif" 
+          width="100" 
+          height="100" 
+          class ="gif">
+          <img src = "images/slider/540by540.gif"
+          width="100" 
+          height="100" 
+          class ="gif">
+        </div>
+      </div>
+    
       <div>
         <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
         <h1 id="welcomeH1">Welcome to the CodeCats NFT Project!</h1>
         <p id="welcomeP">
-          The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.
+          The SPIRIT CORES
         </p>
       </div>
     </section>
+  
 
     <section class="container">
       <div class="countdown card">
@@ -118,14 +137,17 @@
           <div class="info-container">
             <div>
               <h3>Supply</h3>
+              <br>
               <p id="totalSupply">100</p>
             </div>
             <div>
               <h3>Price Per Mint</h3>
+              <br>
               <p id="pricePerMint">1 ETH</p>
             </div>
             <div>
               <h3>Max</h3>
+              <br>
               <p id="maxPerMint">5 per wallet</p>
             </div>
           </div>
@@ -152,7 +174,7 @@
         </div>
       </div>
       <div class="minted-container card show-card hidden">
-        <h1>🎉</h1>
+        <h1> <img src="images/header/Mintedpic.png" /> </h1>
         <h2>Minted!</h2>
         <p>Here's your trasaction link:</p>
         <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
@@ -178,34 +200,11 @@
           <li class="splide__slide">
             <img src="images/slider/0.png" />
           </li>
-          <li class="splide__slide">
-            <img src="images/slider/1.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/2.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/3.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/4.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/5.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/6.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/7.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/8.png" />
-          </li>
         </ul>
       </div>
     </div>
 
+    
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
     <script src="js/splide.min.js"></script>
