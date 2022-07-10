@@ -1,13 +1,20 @@
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+  font-family: 'Sysfont';
+  src: url('sysfont.woff2') format('woff2'),
+  url('sysfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+};
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Press Start 2P";
-  --font-secondary: "Press Start 2P";
-  --font-code: "Press Start 2P";
+  --font-primary: "Sysfont";
+  --font-secondary: "Sysfont";
+  --font-code: "Sysfont";
   --bg-color: #ffffff;
   --bg-color-transparent: #ffffff88;
   --font-color: #1a1a1a;
