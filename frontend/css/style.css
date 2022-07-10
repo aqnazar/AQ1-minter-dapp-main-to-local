@@ -2,12 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @font-face {
-  font-family: 'Sysfont';
-  src: url('frontend/css/fonts/sysfont.woff2') format('woff2'),
-  url('frontend/css/fonts/sysfont.woff') format('woff');
+  font-family: 'sysfontc';
+  src: url('sysfont-webfont.woff2') format('woff2'),
+       url('sysfont-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-};
+
+}
 
 /* GLOBAL STYLES */
 
