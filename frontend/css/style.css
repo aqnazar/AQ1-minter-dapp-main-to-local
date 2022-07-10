@@ -13,9 +13,9 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Sysfont";
-  --font-secondary: "Sysfont";
-  --font-code: "Sysfont";
+  --font-primary: "sysfontc";
+  --font-secondary: "sysfontc";
+  --font-code: "sysfontc";
   --bg-color: #ffffff;
   --bg-color-transparent: #ffffff88;
   --font-color: #1a1a1a;
