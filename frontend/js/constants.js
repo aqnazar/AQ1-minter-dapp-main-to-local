@@ -13,12 +13,12 @@ const p_presale_coming_soon = "The news are coming";
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale";
 const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you!";
-const p_public_mint = "No whitelist needed.";
+const p_public_mint = "No whitelist.";
 const button_presale_coming_soon = "Get on the Whitelist";
-const button_presale_mint_whitelisted = "Mint Your Special NFT";
+const button_presale_mint_whitelisted = "Mint Your STARE FACE";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";
 const button_presale_already_minted = "Join Us";
-const button_public_mint = "Mint Your NFT";
+const button_public_mint = "Mint Your STARE FACE";
 const mint_failed = "Minting failed. Please try again.";
 
 

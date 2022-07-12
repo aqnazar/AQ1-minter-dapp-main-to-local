@@ -174,7 +174,7 @@ header .container {
   border-radius: 20px;
   border: 10px solid var(--accent-color);
   box-shadow: var(--card-shadow);
-  padding: 4rem 5rem;
+  padding: 4rem 7rem;
   margin-bottom: 1rem;
   opacity: 0;
   transform: translateX(100vw);
@@ -289,7 +289,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: var(--accent-color);
   border-radius: 5px;
   max-width: 100%;
@@ -446,10 +446,7 @@ section {
 }
 
 
-.h3 {
-  font-size: 1.5rem;
+.info-container {
+  font-size: 1.3rem;
 }
 
-.totalSupply {
-  font-size: 1.5rem;
-}
