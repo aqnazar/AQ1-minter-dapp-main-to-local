@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "STARE FACE";
-const description = "Put on your STARE FACE. Trade to find the one staring at your soul.";
+const description = "Put on your STARE FACE. Trade to find the one piercing your soul.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
