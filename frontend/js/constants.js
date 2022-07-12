@@ -1,9 +1,9 @@
 const contractAddress = "0x56543FF171A0B7431B893FA353754194C41c9AdD"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Discover your Spirit";
-const welcome_h2 = "Connect MetaMask to Mint";
-const welcome_p = "Hahaha";
+const welcome_h1 = "PUT ON YOUR STARE FACE";
+const welcome_h2 = "NO INFLATED VALUE. JUST THE INHERIT ONE.";
+const welcome_p = "STARE FACE is for everyone. Gone are the days of speculatively inflated trash. Here you pay for what you get. A beautiful set of simple PICTURES for all PERSONALITIES. Use them however you want. Only 10 MATIC per MINT." ;
 const h1_presale_coming_soon = "NFT Drop Coming Soon";
 const h1_presale_mint = "Pre-Sale Minting Open";
 const h1_public_mint = "MINT NOW";
