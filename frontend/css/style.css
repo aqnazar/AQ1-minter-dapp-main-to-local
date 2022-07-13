@@ -71,7 +71,8 @@ header {
   background-color: var(--font-color);
   box-shadow: var(--header-shadow);
   border-radius: 10px;
-  max-width: 90vw;
+  max-width: 9vw;
+  margin: auto auto;
 }
 
 .logo {
