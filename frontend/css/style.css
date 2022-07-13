@@ -71,13 +71,10 @@ header {
   background-color: var(--font-color);
   box-shadow: var(--header-shadow);
   border-radius: 10px;
-  max-width: 9vw;
+  width: 95vw;
   margin: auto auto;
 }
 
-.logo {
-  border-radius: 0px;
-}
 
 header .container {
   flex-direction: row;
@@ -477,4 +474,8 @@ section {
 
 .answer {
   margin: 0 1rem;
+}
+
+.logo {
+  border-radius: 0px;
 }
