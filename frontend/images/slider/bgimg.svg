@@ -2,18 +2,47 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="3999.9998"
-   height="3999.9998"
-   viewBox="0 0 1058.3332 1058.3332"
+   width="3600.002"
+   height="3600.001"
+   viewBox="0 0 952.50049 952.50023"
    version="1.1"
    id="svg5"
+   sodipodi:docname="bgimg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1006"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
   <defs
-     id="defs2" />
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3037">
+      <rect
+         style="opacity:0.462604;fill:#6c5353;stroke-width:3.32161;stroke-linecap:round"
+         id="rect3039"
+         width="952.50043"
+         height="952.50018"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
   <g
-     id="layer1">
+     id="g3035"
+     clip-path="url(#clipPath3037)"
+     inkscape:export-filename="..\..\..\..\..\Punkies\Media\bgimg.svg"
+     inkscape:export-xdpi="960"
+     inkscape:export-ydpi="960">
     <g
        id="use5133"
        transform="matrix(0.96236164,0.96236164,-0.96236164,0.96236164,-136.03424,-281.7528)">
