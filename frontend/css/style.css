@@ -47,7 +47,7 @@ body {
   margin: auto auto;
   padding: 1rem 1rem;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .gifcontainer {
@@ -99,7 +99,7 @@ header .container {
   background-color: #ffffff;
   border-color: #1a1a1a;
   border-width: 10px;
-  border-radius: 30px;
+  border-radius: 20px;
   border-style: solid;
   padding: 3rem;
 }
