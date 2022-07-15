@@ -12,7 +12,7 @@
   --bg-color: #ffffff;
   --bg-color-transparent: #ffffff88;
   --font-color: #1a1a1a;
-  --btn-bg-color: #ffffff;
+  --btn-bg-color: aqua;
   --accent-color: #ff0066;
   --header-shadow: var(--font-color) 0px 0px 0px;
   --card-shadow: var(--font-color) 0px 0px 0px;
@@ -201,7 +201,7 @@ header .container {
   border-radius: 20px;
   border: 10px solid var(--accent-color);
   box-shadow: var(--card-shadow);
-  padding: 4rem 7rem;
+  padding: 4rem 5rem;
   margin-bottom: 1rem;
   opacity: 0;
   transform: translateX(100vw);
@@ -239,7 +239,6 @@ section {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
 }
 
 .countdown ul {
@@ -371,7 +370,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 60vw;
+  max-width: 70vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -409,7 +408,7 @@ section {
 
 .splide__slide img {
   width: 100%;
-}*/
+}
 
 /* SPINNER */
 .dot-spin {
