@@ -52,10 +52,10 @@ const updateConnectStatus = async () => {
   const notConnected = document.querySelector('.not-connected');
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-    onboardButton.innerText = "Install MetaMask";
+    onboardButton.innerText = "Click Here";
     onboardButton.onload = () => {
-      onboardButton.innerText = "Connecting...";
-      onboardButton.disabled = true;
+      //onboardButton.innerText = "Connecting...";
+      //onboardButton.disabled = true;
       onboarding.startOnboarding();
       // HIDE SPINNER
       spinner.classList.add('hidden');
