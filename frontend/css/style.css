@@ -45,7 +45,7 @@ body {
   flex-direction: column;
   max-width: 100vw;
   margin: auto auto;
-  padding: 1rem 1rem;
+  padding: 1.2vw 1vw;
   justify-content: center;
   overflow: visible;
 }
@@ -72,7 +72,7 @@ body {
 header {
   background-color: var(--font-color);
   box-shadow: var(--header-shadow);
-  border-radius: 10px;
+  border-radius: 3vw;
   width: 95vw;
   margin: auto auto;
 }
@@ -86,10 +86,12 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 3rem;
+  gap: 5vw;
   align-items: center;
   margin: auto;
   border-radius: 0px;
+  max-width: 80vw;
+  max-height: 10vw;
 }
 
 /* NOT CONNECTED */
@@ -104,7 +106,7 @@ header .container {
   background-color: #ffffff;
   border-color: #1a1a1a;
   border-width: 1vw;
-  border-radius: 20px;
+  border-radius: 3vw;
   border-style: solid;
   padding: 2rem 1rem;
 }
@@ -117,7 +119,7 @@ header .container {
 .not-connected h1 {
   text-shadow: 0px 0px 0 var(--font-color);
   font-style: normal;
-  margin: 2rem auto;
+  margin: 2vw auto;
   font-size: 4.5vw;
   width: 80%;
   text-align: center;
@@ -126,9 +128,9 @@ header .container {
 
 .not-connected h2 {
   font-style: normal;
-  margin: 2rem auto;
+  margin: 2vw auto;
   font-size: 2vw;
-  width: 100%;
+  width: 60%;
   text-align: center;
   line-height: 3vw;
 }
@@ -137,7 +139,7 @@ header .container {
   font-size: 1vw;
   font-family: var(--font-secondary);
   line-height: 2vw;
-  margin: 0 6vw;
+  margin: 0 2.5vw;
 }
 
 .not-connected a {
@@ -182,6 +184,7 @@ header .container {
   padding: 1rem 5rem;
   text-size-adjust: none;
   font-size: 1.5vw;
+  max-width: 40vw;
 }
 
 .hero-btn {
@@ -420,18 +423,17 @@ section {
 
 @media screen and (max-width: 768px) {
   .menu {
-    gap: 1rem;
+    gap: 5vw;
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 0.5rem 1rem;
-    max-width: 8rem;
+    padding: 2vw 3vw;
+    max-width: 40vw;
   }
   .not-connected {
-    background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
-    margin: 0 auto;
+    padding: 4vw;
+    margin: 3vw auto;
   }
   .countdown ul {
     display: grid;
@@ -482,4 +484,9 @@ section {
 
 .logo {
   border-radius: 0px;
+  max-width: 6vw;
+}
+
+.a {
+  max-width: 6vw;
 }
