@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "PUT ON YOUR STARE FACE";
 const welcome_h2 = "NO INFLATED VALUE. ONLY SUBJECTIVE.";
-const welcome_p = "STARE FACE is for everyone. No speculatively inflated trash. YOU pay for what YOU get. Simple PICTURES for all PERSONALITIES. Use them however you want. Only 10 MATIC per MINT." ;
+const welcome_p = "STARE FACE is for everyone. No speculatively inflated trash. YOU pay for what YOU get. Simple PICTURES for all PERSONALITIES. Use them however you want. Only 10 MATIC per PICTURE." ;
 const h1_presale_coming_soon = "NFT Drop Coming Soon";
 const h1_presale_mint = "Pre-Sale Minting Open";
 const h1_public_mint = "MINT NOW";
