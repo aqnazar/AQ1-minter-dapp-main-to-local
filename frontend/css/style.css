@@ -511,3 +511,11 @@ section {
 .splide {
   display: none;
 }
+
+.catalog {
+  background: aqua;
+  padding: 0.5vw;
+  border-style: unset;
+  border-radius: 0.5vw;
+  font-size: 3vw;
+}
