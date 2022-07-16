@@ -60,7 +60,7 @@ body {
 
 .gif {
   border-style: solid;
-  border-radius: 4px;
+  border-radius: 1vw;
   border-color: #ff0066;
   border-width: 0.5vw;
   max-width: 15vw;
@@ -428,6 +428,7 @@ section {
     margin-left: 0;
     padding: 2vw 3vw;
     max-width: 40vw;
+    border-style: unset;
   }
   .not-connected {
     border-radius: 5px;
@@ -436,6 +437,13 @@ section {
   }
 
   .not-connected p {
+    font-size: 2vw;
+    font-family: var(--font-secondary);
+    line-height: 3vw;
+    margin: 0 2vw;
+  }
+
+  .catalog {
     font-size: 2vw;
     font-family: var(--font-secondary);
     line-height: 3vw;
@@ -484,7 +492,7 @@ section {
 .question {
   margin: 0 2rem;
   background-color: aqua;
-  
+
 }
 
 .answer {
@@ -498,4 +506,8 @@ section {
 
 .a {
   max-width: 6vw;
+}
+
+.splide {
+  display: none;
 }
