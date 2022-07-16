@@ -483,6 +483,8 @@ section {
 
 .question {
   margin: 0 2rem;
+  background-color: aqua;
+  
 }
 
 .answer {
