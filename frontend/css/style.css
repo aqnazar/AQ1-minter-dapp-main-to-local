@@ -374,7 +374,8 @@ section {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) 
+  transform: translate(-50%, -50%);
+  margin-top: 6rem;
 }
 
 .minted-container h1 {
@@ -433,6 +434,14 @@ section {
     padding: 4vw;
     margin: 3vw auto;
   }
+
+  .not-connected p {
+    font-size: 2vw;
+    font-family: var(--font-secondary);
+    line-height: 3vw;
+    margin: 0 2vw;
+  }
+
   .countdown ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

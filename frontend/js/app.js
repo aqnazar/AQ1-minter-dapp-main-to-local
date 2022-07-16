@@ -52,7 +52,7 @@ const updateConnectStatus = async () => {
   const notConnected = document.querySelector('.not-connected');
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-    onboardButton.innerText = "Click Here";
+    onboardButton.innerText = "Click Here to Start";
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
@@ -63,7 +63,7 @@ const updateConnectStatus = async () => {
       notConnected.classList.add('show-not-connected');
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = `# ...${accounts[0].slice(-4)}`;
+    onboardButton.innerText = `* ...${accounts[0].slice(-4)}`;
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
@@ -85,7 +85,7 @@ const updateConnectStatus = async () => {
           method: "eth_requestAccounts",
         })
         .then(function (accts) {
-          onboardButton.innerText = `# ...${accts[0].slice(-4)}`;
+          onboardButton.innerText = `* ...${accts[0].slice(-4)}`;
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
           // SHOW SPINNER
