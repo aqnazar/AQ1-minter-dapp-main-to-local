@@ -430,7 +430,7 @@ section {
     border-style: unset;
   }
   .not-connected {
-    border-radius: 5px;
+    border-radius: 1vw;
     padding: 4vw;
     margin: 3vw auto;
   }
@@ -442,7 +442,7 @@ section {
     margin: 0 2vw;
   }
 
-  .catalog {
+  .a catalog {
     font-size: 2vw;
     font-family: var(--font-secondary);
     line-height: 3vw;
@@ -522,7 +522,7 @@ section {
   margin: auto;
 }
 
-.catalog {
+.a catalog {
   display: block; 
   text-align: center; 
   padding: 1vw; 
