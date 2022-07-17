@@ -442,7 +442,7 @@ section {
     margin: 0 2vw;
   }
 
-  .a catalog {
+  .not-connected a {
     font-size: 2vw;
     font-family: var(--font-secondary);
     line-height: 3vw;
@@ -511,18 +511,8 @@ section {
   display: none;
 }
 
-.prices {
-  background: aqua;
-  padding: 0.5vw;
-  border-style: unset;
-  border-radius: 0.5vw;
-  font-size: 3vw;
-  text-align: center;
-  max-width: 40%;
-  margin: auto;
-}
 
-.a catalog {
+.catalog {
   display: block; 
   text-align: center; 
   padding: 1vw; 
