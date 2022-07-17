@@ -435,7 +435,7 @@ section {
     border-style: unset;
   }
   .not-connected {
-    border-radius: 1vw;
+    border-radius: 2vw;
     padding: 4vw;
     margin: 3vw auto;
   }
