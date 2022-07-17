@@ -375,7 +375,8 @@ section {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  margin-top: 6rem;
+  margin-top: 9rem;
+  padding: 2vw 5vw;
 }
 
 .minted-container h1 {
@@ -389,7 +390,7 @@ section {
 }
 
 .minted-container p {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 /* SLIDER */
