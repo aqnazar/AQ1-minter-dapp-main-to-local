@@ -35,9 +35,8 @@ body {
   color: var(--font-color);
   font-family: var(--font-primary);
   background-image: url( '/images/slider/bgimg.svg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat;
-
 }
 
 .container {
@@ -512,7 +511,7 @@ section {
   display: none;
 }
 
-.catalog {
+.prices {
   background: aqua;
   padding: 0.5vw;
   border-style: unset;
@@ -521,4 +520,15 @@ section {
   text-align: center;
   max-width: 40%;
   margin: auto;
+}
+
+.catalog {
+  display: block; 
+  text-align: center; 
+  padding: 1vw; 
+  background-color: yellow; 
+  border-style: unset; 
+  border-radius: 1vw; 
+  font-size: 1.5vw;
+  line-height: 1.5vw;
 }
