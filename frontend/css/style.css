@@ -144,7 +144,8 @@ header .container {
 .not-connected a {
   text-decoration: none;
   color: var(--font-color);
-  font-size: 1.5rem;
+  font-size: 1.5vw;
+  line-height: 1.8vw;
   font-weight: normal;
 }
 
@@ -420,6 +421,10 @@ section {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+  body {
+    background-size: 768px;
+  }
+  
   .menu {
     gap: 5vw;
   }
@@ -489,13 +494,11 @@ section {
 
 
 .question {
-  margin: 0 2rem;
-  background-color: aqua;
-
+  padding: 1vw 2vw;
 }
 
 .answer {
-  margin: 0 1rem;
+  margin: 0 2.5vw;
 }
 
 .logo {
