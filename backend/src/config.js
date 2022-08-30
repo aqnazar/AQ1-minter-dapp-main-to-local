@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "STARE FACE";
-const description = "Put on your STARE FACE. Trade to find the one staring at your soul.";
+const namePrefix = "STARE-FACE";
+const description = "Put on your STARE-FACE.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -116,7 +116,7 @@ const METADATA_UPDATABLE = false; // set to false if you don't want to allow met
 const OWNER_ADDRESS = '0x783a871F579bB689B4E0Fa00366014880A37B431';
 const TREASURY_ADDRESS = '0x783a871F579bB689B4E0Fa00366014880A37B431';
 const MAX_SUPPLY = 75600; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 12; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 48; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
