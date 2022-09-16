@@ -14,9 +14,9 @@ const {
   let data = JSON.parse(rawdata);
 
   console.log("Info will be updated using the config.js data.");
-  const updateName = await yesno(`Update names?`);
-  const updateDescription = await yesno(`Update descriptions?`);
-  const updateBaseUri = await yesno(`Update images base URI?`);
+  const updateName = await yesno('Update names?');
+  const updateDescription = await yesno('Update descriptions?');
+  const updateBaseUri = await yesno('Update images base URI?');
 
   data.forEach((item) => {
     if(updateName) item.name = `${namePrefix} #${item.edition}`;

@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "STARE-FACE";
-const description = "Put on your STARE-FACE.";
+const description = "PUT ON YOUR STARE-FACE. YOUR CYBER IDENTITY.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -107,16 +107,16 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'polygon'; // only rinkeby or polygon
+const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'STARE FACE';
-const CONTRACT_SYMBOL = 'SF';
+const CONTRACT_NAME = 'STARE-FACE';
+const CONTRACT_SYMBOL = 'S-F';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x783a871F579bB689B4E0Fa00366014880A37B431';
 const TREASURY_ADDRESS = '0x783a871F579bB689B4E0Fa00366014880A37B431';
 const MAX_SUPPLY = 75600; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 48; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -154,7 +154,7 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "SF",
+  symbol: "S-F",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
